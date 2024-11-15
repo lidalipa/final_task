@@ -64,4 +64,5 @@ print("Общая выручка: ", total_revenue(purchases))
 print("Товары по категориям: ", items_by_category(purchases))
 print(f"Покупки дороже {min_price}: ", expensive_purchases(purchases, min_price))
 print("Средняя цена по категориям: ", average_price_by_category(purchases))
-print("Категория с наибольшим количеством проданных товаров: ", most_frequent_category(purchases))```
+print("Категория с наибольшим количеством проданных товаров: ", most_frequent_category(purchases))
+```
