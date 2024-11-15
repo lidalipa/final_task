@@ -1,4 +1,12 @@
-# final_task
+# Итоговое задание по модулю Python
+### Необходимо написать программу, которая выполняет анализ данных по покупкам в магазине и выводит отчет по:
+1. Общая выручка
+2. Список товаров по категориям
+3. Список покупок, где цена превышает заданное значение
+4. Средняя цена товаров по категориям
+5. Категория с наибольшим числом проданных товаров
+## Код:
+```
 purchases = [
     {"item": "apple", "category": "fruit", "price": 1.2, "quantity": 10},
     {"item": "banana", "category": "fruit", "price": 0.5, "quantity": 5},
@@ -56,4 +64,4 @@ print("Общая выручка: ", total_revenue(purchases))
 print("Товары по категориям: ", items_by_category(purchases))
 print(f"Покупки дороже {min_price}: ", expensive_purchases(purchases, min_price))
 print("Средняя цена по категориям: ", average_price_by_category(purchases))
-print("Категория с наибольшим количеством проданных товаров: ", most_frequent_category(purchases))
+print("Категория с наибольшим количеством проданных товаров: ", most_frequent_category(purchases))```
